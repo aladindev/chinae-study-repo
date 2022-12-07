@@ -8,7 +8,7 @@ import org.hibernate.validator.constraints.CreditCardNumber;
 import lombok.Data;
 
 @Data
-public class Order {
+public class Order { 
 	
 	@NotBlank(message="Name is required")
 	private String deliveryName;
